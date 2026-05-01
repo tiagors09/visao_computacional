@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Rodar com uv",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "uv",
+      "args": ["run", "python", "main.py"],
+      "console": "integratedTerminal"
+    }
+  ]
+}
