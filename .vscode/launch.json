@@ -2,12 +2,12 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Rodar com uv",
+      "name": "Python (.venv)",
       "type": "debugpy",
       "request": "launch",
-      "module": "uv",
-      "args": ["run", "python", "main.py"],
-      "console": "integratedTerminal"
+      "program": "${workspaceFolder}/main.py",
+      "console": "integratedTerminal",
+      "preLaunchTask": "clear-terminal"
     }
   ]
 }
